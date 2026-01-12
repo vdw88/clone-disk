@@ -14,7 +14,7 @@ Voer uit:
 
 ```bash
 lsblk
----
+```
 
 Verifieer zorgvuldig:
 
@@ -26,7 +26,7 @@ Verifieer zorgvuldig:
 
 ```bash
 sudo dd if=/dev/sda of=/dev/sdc bs=64M status=progress conv=noerror,sync
----
+```
 
 ⏳ Verwachte tijd: ±1–2 uur
 
@@ -37,4 +37,4 @@ Schrijf buffers weg
 
 ```bash
 sync
----
+```
